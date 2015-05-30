@@ -47,8 +47,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-	vendor/motorola/surnia/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
@@ -71,7 +69,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_dw9714_q13n04a.so:system/vendor/lib/libactuator_dw9714_q13n04a.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
-	vendor/motorola/surnia/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
@@ -85,7 +82,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_liveshot.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_keypadbacklight.so:system/vendor/lib/mmi_keypadbacklight.so \
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camera.so:system/vendor/lib/libactuator_dw9714_q13n04a_camera.so \
@@ -112,7 +108,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so\
@@ -127,20 +122,17 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:system/vendor/lib/libactuator_dw9714_13p1ba.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx214_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_hfr_90fps.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e.so:system/vendor/lib/libmmcamera_ov5648_q5v22e.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so\
@@ -148,15 +140,11 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_liveshot.so:system/vendor/lib/libchromatix_ov8858_q8v19w_liveshot.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:system/vendor/lib/libmmcamera_s5k3l1yx.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so\
@@ -172,13 +160,11 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video.so:system/vendor/lib/libchromatix_ov5648_p5v18g_default_video.so\
@@ -214,9 +200,7 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_S5K4E1_13P1BA.so:system/vendor/lib/libmmcamera_S5K4E1_13P1BA.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_lsensor.so:system/vendor/lib/mmi_lsensor.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib/libchromatix_ov8858_q8v19w_preview.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so:system/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so\
@@ -233,13 +217,11 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:system/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so\
@@ -247,14 +229,12 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_q8v19w_hfr_90fps.so\
@@ -263,7 +243,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_mt9v113.so:system/vendor/lib/libmmcamera_mt9v113.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_iu074_camera.so:system/vendor/lib/libactuator_iu074_camera.so\
@@ -345,7 +324,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_psensor.so:system/vendor/lib/mmi_psensor.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov16825_common.so:system/vendor/lib/libchromatix_ov16825_common.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so\
@@ -379,7 +357,6 @@ PRODUCT_COPY_FILES += vendor/motorola/surnia/proprietary/vendor/media/LMspeed_50
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so\
-	vendor/motorola/surnia/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_snapshot.so:system/vendor/lib/libchromatix_ov5648_p5v18g_snapshot.so\
 	vendor/motorola/surnia/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so\
