@@ -103,12 +103,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/hw/sensorhub.msm8916.so:system/lib/hw/sensorhub.msm8916.so \
     vendor/motorola/osprey/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/motorola/osprey/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
+    vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/osprey/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/motorola/osprey/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/osprey/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/osprey/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/motorola/osprey/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/osprey/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/motorola/osprey/proprietary/lib/libjscore.so:system/lib/libjscore.so \
+    vendor/motorola/osprey/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/osprey/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/osprey/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/osprey/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
@@ -118,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/osprey/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
+    vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/osprey/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
     vendor/motorola/osprey/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/osprey/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
