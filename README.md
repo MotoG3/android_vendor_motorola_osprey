@@ -1,4 +1,4 @@
-android_vendor_motorola_surnia
+android_vendor_motorola_osprey
 ==============================
 
-Proprietary Blobs for Motorola Moto E 2015 [Surnia]
+Proprietary blobs for Motorola Moto G 2015 [osprey]
