@@ -16,6 +16,8 @@
 
 #Prebuilt libraries that are needed to build open-source libraries
 
+PRODUCT_COPY_FILES := vendor/motorola/osprey/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+
 PRODUCT_COPY_FILES += vendor/motorola/osprey/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
 	vendor/motorola/osprey/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
 	vendor/motorola/osprey/proprietary/etc/gps.conf:system/etc/gps.conf \
