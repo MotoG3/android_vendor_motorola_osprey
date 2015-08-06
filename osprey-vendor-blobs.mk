@@ -493,6 +493,7 @@ PRODUCT_COPY_FILES += vendor/motorola/osprey/proprietary/framework/qcnvitems.jar
 	vendor/motorola/osprey/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/motorola/osprey/proprietary/lib/libpkip.so:system/lib/libpkip.so \
 	vendor/motorola/osprey/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+	vendor/motorola/osprey/proprietary/bin/akmd09912:system/bin/akmd09912 \
 	vendor/motorola/osprey/proprietary/bin/garden_app:system/bin/garden_app \
 	vendor/motorola/osprey/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/motorola/osprey/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
