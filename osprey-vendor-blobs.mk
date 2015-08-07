@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/osprey/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/osprey/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/osprey/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/osprey/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/osprey/proprietary/bin/dropboxd:system/bin/dropboxd \
     vendor/motorola/osprey/proprietary/bin/fmconfig:system/bin/fmconfig \
