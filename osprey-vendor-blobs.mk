@@ -93,8 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/motorola/osprey/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/motorola/osprey/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/motorola/osprey/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/osprey/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/osprey/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -134,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/osprey/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/osprey/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/osprey/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/osprey/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/motorola/osprey/proprietary/lib/libSTML0Updater.so:system/lib/libSTML0Updater.so \
