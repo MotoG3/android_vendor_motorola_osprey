@@ -56,6 +56,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/osprey/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/osprey/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/osprey/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/osprey/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/motorola/osprey/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \

@@ -17,4 +17,5 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     MotGeoFenceSvc
+
 $(call inherit-product, vendor/motorola/osprey/osprey-vendor-blobs.mk)
