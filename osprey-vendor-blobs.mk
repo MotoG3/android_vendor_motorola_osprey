@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/osprey/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/osprey/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/motorola/osprey/proprietary/bin/perfd:system/bin/perfd \
     vendor/motorola/osprey/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/osprey/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/osprey/proprietary/bin/qmuxd:system/bin/qmuxd \
