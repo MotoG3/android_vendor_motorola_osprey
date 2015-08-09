@@ -21,30 +21,18 @@ PRODUCT_COPY_FILES := vendor/motorola/osprey/proprietary/vendor/lib/libtime_geno
 PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/osprey/proprietary/bin/akmd09912:system/bin/akmd09912 \
-    vendor/motorola/osprey/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
-    vendor/motorola/osprey/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/osprey/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/osprey/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/osprey/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/osprey/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/osprey/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
-    vendor/motorola/osprey/proprietary/bin/dropboxd:system/bin/dropboxd \
-    vendor/motorola/osprey/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/motorola/osprey/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/motorola/osprey/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/motorola/osprey/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/osprey/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/osprey/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/osprey/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/motorola/osprey/proprietary/bin/kpgather:system/bin/kpgather \
     vendor/motorola/osprey/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/motorola/osprey/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/motorola/osprey/proprietary/bin/mbm_spy:system/bin/mbm_spy \
-    vendor/motorola/osprey/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/osprey/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/osprey/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/osprey/proprietary/bin/perfd:system/bin/perfd \
-    vendor/motorola/osprey/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/osprey/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/osprey/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/osprey/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -52,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/osprey/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/osprey/proprietary/bin/stml0xx:system/bin/stml0xx \
-    vendor/motorola/osprey/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/motorola/osprey/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/osprey/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/osprey/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/osprey/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -111,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/motorola/osprey/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/osprey/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
-    vendor/motorola/osprey/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/motorola/osprey/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/osprey/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/osprey/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -130,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/osprey/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
-    vendor/motorola/osprey/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/osprey/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/osprey/proprietary/lib/libril.so:system/lib/libril.so \
@@ -143,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/osprey/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/osprey/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/motorola/osprey/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/osprey/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/osprey/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/osprey/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -199,12 +182,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
@@ -346,12 +327,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libDiagService.so:system/vendor/lib/libDiagService.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -371,17 +347,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/osprey/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/motorola/osprey/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/motorola/osprey/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -482,7 +453,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/motorola/osprey/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
@@ -490,14 +460,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
@@ -511,7 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
