@@ -120,10 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/motorola/osprey/proprietary/lib/libSTML0Updater.so:system/lib/libSTML0Updater.so \
     vendor/motorola/osprey/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    vendor/motorola/osprey/proprietary/lib/libtpa_core_no_widevine.so:system/lib/libtpa_core_no_widevine.so \
-    vendor/motorola/osprey/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
-    vendor/motorola/osprey/proprietary/lib/libtpa_no_widevine.so:system/lib/libtpa_no_widevine.so \
-    vendor/motorola/osprey/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/osprey/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/osprey/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/osprey/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
