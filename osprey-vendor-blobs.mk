@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/osprey/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/osprey/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/osprey/proprietary/bin/perfd:system/bin/perfd \
     vendor/motorola/osprey/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/osprey/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/osprey/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -284,7 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
