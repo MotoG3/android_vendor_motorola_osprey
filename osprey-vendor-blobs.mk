@@ -16,8 +16,6 @@
 
 #Prebuilt libraries that are needed to build open-source libraries
 
-PRODUCT_COPY_FILES := vendor/motorola/osprey/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
-
 PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/osprey/proprietary/bin/akmd09912:system/bin/akmd09912 \
