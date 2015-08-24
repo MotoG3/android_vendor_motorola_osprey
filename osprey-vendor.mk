@@ -17,6 +17,7 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     MotGeoFenceSvc \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    TimeService
 
 $(call inherit-product, vendor/motorola/osprey/osprey-vendor-blobs.mk)
