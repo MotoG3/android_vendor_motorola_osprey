@@ -157,7 +157,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_new_ircf_hfr_60fps.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_liveshot_hdr.so:system/vendor/lib/libchromatix_imx214_new_ircf_liveshot_hdr.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_liveshot.so:system/vendor/lib/libchromatix_imx214_new_ircf_liveshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_preview_night.so:system/vendor/lib/libchromatix_imx214_new_ircf_preview_night.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_preview.so:system/vendor/lib/libchromatix_imx214_new_ircf_preview.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_snapshot_night.so:system/vendor/lib/libchromatix_imx214_new_ircf_snapshot_night.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_snapshot.so:system/vendor/lib/libchromatix_imx214_new_ircf_snapshot.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_new_ircf_video_hdr.so:system/vendor/lib/libchromatix_imx214_new_ircf_video_hdr.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
@@ -167,9 +169,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_common_hdr.so:system/vendor/lib/libchromatix_s5k3m2_common_hdr.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_common.so:system/vendor/lib/libchromatix_s5k3m2_common.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_default_video.so:system/vendor/lib/libchromatix_s5k3m2_default_video.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2_hfr_120.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2_hfr_60.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2_hfr_90.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_liveshot_hdr.so:system/vendor/lib/libchromatix_s5k3m2_liveshot_hdr.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_liveshot.so:system/vendor/lib/libchromatix_s5k3m2_liveshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_preview_night.so:system/vendor/lib/libchromatix_s5k3m2_preview_night.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_preview.so:system/vendor/lib/libchromatix_s5k3m2_preview.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_hdr.so:system/vendor/lib/libchromatix_s5k3m2_snapshot_hdr.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_night.so:system/vendor/lib/libchromatix_s5k3m2_snapshot_night.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_snapshot.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k3m2_video_hdr.so:system/vendor/lib/libchromatix_s5k3m2_video_hdr.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_common.so:system/vendor/lib/libchromatix_s5k5e2_common.so \
@@ -184,7 +192,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_default_video.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_default_video.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_hfr_60fps.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_hfr_60fps.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_liveshot.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_preview_night.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_preview_night.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_preview.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_preview.so \
+    vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_snapshot_night.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_snapshot_night.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_front_KT_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_front_KT_snapshot.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_hfr_60fps.so:system/vendor/lib/libchromatix_s5k5e2_hfr_60fps.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libchromatix_s5k5e2_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_liveshot.so \
