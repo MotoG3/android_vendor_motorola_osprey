@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/osprey/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/osprey/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/motorola/osprey/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/osprey/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/osprey/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/osprey/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -49,23 +50,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/osprey/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/osprey/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/motorola/osprey/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/motorola/osprey/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/motorola/osprey/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/motorola/osprey/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/motorola/osprey/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/emmc_ffu_fe_xx_P1J95K_00000000000000af.fw:system/etc/firmware/emmc_ffu_fe_xx_P1J95K_00000000000000af.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/motorola/osprey/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/motorola/osprey/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/motorola/osprey/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/osprey/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat \
@@ -87,8 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/osprey/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/osprey/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/osprey/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/motorola/osprey/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/motorola/osprey/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/motorola/osprey/proprietary/lib/hw/sensorhub.msm8916.so:system/lib/hw/sensorhub.msm8916.so \
     vendor/motorola/osprey/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
@@ -111,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/osprey/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/osprey/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/osprey/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/motorola/osprey/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/osprey/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/osprey/proprietary/lib/libril.so:system/lib/libril.so \
@@ -127,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
@@ -216,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -274,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/libP11EncryptorDecryptor.so:system/vendor/lib/libP11EncryptorDecryptor.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/motorola/osprey/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
@@ -333,14 +323,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_gsensor.so:system/vendor/lib/mmi_gsensor.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/mmi_gyroscope.so:system/vendor/lib/mmi_gyroscope.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_keypadbacklight.so:system/vendor/lib/mmi_keypadbacklight.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_led.so:system/vendor/lib/mmi_led.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_lsensor.so:system/vendor/lib/mmi_lsensor.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_msensor.so:system/vendor/lib/mmi_msensor.so \
-    vendor/motorola/osprey/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_psensor.so:system/vendor/lib/mmi_psensor.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_sdcard.so:system/vendor/lib/mmi_sdcard.so \
     vendor/motorola/osprey/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
