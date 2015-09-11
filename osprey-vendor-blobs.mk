@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/osprey/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15052103-1d6479-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15060402-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15060402-1dc9a8-osprey.tdat \
+    vendor/motorola/osprey/proprietary/etc/firmware/synaptics-inx-s2726br_t-15062201-1dc9a8-osprey.tdat:system/etc/firmware/synaptics-inx-s2726br_t-15062201-1dc9a8-osprey.tdat \
     vendor/motorola/osprey/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/motorola/osprey/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/motorola/osprey/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
